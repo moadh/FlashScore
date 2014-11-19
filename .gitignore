@@ -154,3 +154,28 @@ $RECYCLE.BIN/
 
 # Mac desktop service store files
 .DS_Store
+/packages/Antlr.3.4.1.9004
+/packages/bootstrap.3.0.0
+/packages/EntityFramework.6.1.1
+/packages/jQuery.1.10.2
+/packages/Microsoft.AspNet.Mvc.5.0.0
+/packages/Microsoft.AspNet.Mvc.fr.5.0.0
+/packages/Microsoft.AspNet.Razor.3.0.0
+/packages/Microsoft.AspNet.Razor.fr.3.0.0
+/packages/Microsoft.AspNet.Web.Optimization.1.1.1
+/packages/Microsoft.AspNet.Web.Optimization.fr.1.1.1
+/packages/Microsoft.AspNet.WebApi.5.0.0
+/packages/Microsoft.AspNet.WebApi.Client.5.0.0
+/packages/Microsoft.AspNet.WebApi.Client.fr.5.0.0
+/packages/Microsoft.AspNet.WebApi.Core.5.0.0
+/packages/Microsoft.AspNet.WebApi.Core.fr.5.0.0
+/packages/Microsoft.AspNet.WebApi.HelpPage.5.0.0
+/packages/Microsoft.AspNet.WebApi.WebHost.5.0.0
+/packages/Microsoft.AspNet.WebApi.WebHost.fr.5.0.0
+/packages/Microsoft.AspNet.WebPages.3.0.0
+/packages/Microsoft.AspNet.WebPages.fr.3.0.0
+/packages/Microsoft.Web.Infrastructure.1.0.0.0
+/packages/Modernizr.2.6.2
+/packages/Newtonsoft.Json.5.0.6
+/packages/Respond.1.2.0
+/packages/WebGrease.1.5.2
