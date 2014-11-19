@@ -11,6 +11,9 @@ namespace FlashScore.DAL
 {
     public class Repository :DbContext , IRepository 
     {
+
+        public Repository() : base("FlashScoreContext"){}
+
         public IQueryable<CORE.Entity.Group> GetGroups()
         {
             return Groups;
