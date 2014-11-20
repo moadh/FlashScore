@@ -19,5 +19,6 @@ namespace FlashScore.CORE.Entity
             get;
             set;
         }
+        public IList<Player> Players { get; set; }
     }
 }

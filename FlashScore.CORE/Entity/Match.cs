@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace FlashScore.CORE.Entity
 {
-    public class Competition
+  public  class Match
     {
         public int Id
         {
@@ -13,18 +14,27 @@ namespace FlashScore.CORE.Entity
             set;
         }
 
-        public string Name
+        public string TeamA
         {
             get;
             set;
         }
-
-        public IList<Group> Groups
+        public string TeamB
         {
             get;
             set;
         }
-        public IList<Round> Rounds
+        public DateTime Date
+        {
+            get;
+            set;
+        }
+        public IList<Score> Scores
+        {
+            get;
+            set;
+        }
+        public IList<MatchEvent> MatchEvents
         {
             get;
             set;
