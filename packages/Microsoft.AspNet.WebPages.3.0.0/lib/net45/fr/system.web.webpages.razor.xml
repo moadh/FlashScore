@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <assembly>
+    <name>System.Web.WebPages.Razor</name>
+  </assembly>
+  <members>
+    <member name="T:System.Web.WebPages.Razor.CompilingPathEventArgs">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.CompilingPathEventArgs.#ctor(System.String,System.Web.WebPages.Razor.WebPageRazorHost)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.CompilingPathEventArgs.Host">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.CompilingPathEventArgs.VirtualPath">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="T:System.Web.WebPages.Razor.PreApplicationStartCode">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.PreApplicationStartCode.Start">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="T:System.Web.WebPages.Razor.RazorBuildProvider">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.RazorBuildProvider.#ctor">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.RazorBuildProvider.AddVirtualPathDependency(System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.RazorBuildProvider.AssemblyBuilder">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.RazorBuildProvider.CodeCompilerType">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="E:System.Web.WebPages.Razor.RazorBuildProvider.CodeGenerationCompleted">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="E:System.Web.WebPages.Razor.RazorBuildProvider.CodeGenerationStarted">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="E:System.Web.WebPages.Razor.RazorBuildProvider.CompilingPath">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.RazorBuildProvider.CreateHost">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.RazorBuildProvider.GenerateCode(System.Web.Compilation.AssemblyBuilder)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.RazorBuildProvider.GetGeneratedType(System.CodeDom.Compiler.CompilerResults)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.RazorBuildProvider.GetHostFromConfig">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.RazorBuildProvider.InternalOpenReader">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.RazorBuildProvider.OnBeforeCompilePath(System.Web.WebPages.Razor.CompilingPathEventArgs)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.RazorBuildProvider.VirtualPath">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.RazorBuildProvider.VirtualPathDependencies">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="T:System.Web.WebPages.Razor.WebCodeRazorHost">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebCodeRazorHost.#ctor(System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebCodeRazorHost.#ctor(System.String,System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebCodeRazorHost.GetClassName(System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebCodeRazorHost.PostProcessGeneratedCode(System.Web.Razor.Generator.CodeGeneratorContext)"></member>
+    <member name="T:System.Web.WebPages.Razor.WebPageRazorHost">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.#ctor(System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.#ctor(System.String,System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.AddGlobalImport(System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.WebPageRazorHost.CodeLanguage">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.CreateMarkupParser">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.WebPageRazorHost.DefaultBaseClass">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.WebPageRazorHost.DefaultClassName">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.WebPageRazorHost.DefaultDebugCompilation">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.WebPageRazorHost.DefaultPageBaseClass">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.GetClassName(System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.GetCodeLanguage">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.GetGlobalImports">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.WebPageRazorHost.InstrumentedSourceFilePath">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.WebPageRazorHost.IsSpecialPage">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.WebPageRazorHost.PhysicalPath">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.PostProcessGeneratedCode(System.Web.Razor.Generator.CodeGeneratorContext)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.RegisterSpecialFile(System.String,System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebPageRazorHost.RegisterSpecialFile(System.String,System.Type)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.WebPageRazorHost.VirtualPath">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="T:System.Web.WebPages.Razor.WebRazorHostFactory">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebRazorHostFactory.#ctor">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebRazorHostFactory.ApplyConfigurationToHost(System.Web.WebPages.Razor.Configuration.RazorPagesSection,System.Web.WebPages.Razor.WebPageRazorHost)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebRazorHostFactory.CreateDefaultHost(System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebRazorHostFactory.CreateDefaultHost(System.String,System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebRazorHostFactory.CreateHost(System.String,System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebRazorHostFactory.CreateHostFromConfig(System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebRazorHostFactory.CreateHostFromConfig(System.String,System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebRazorHostFactory.CreateHostFromConfig(System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup,System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.WebRazorHostFactory.CreateHostFromConfig(System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup,System.String,System.String)">
+      <summary>Ce type/membre prend en charge l'infrastructure .NET Framework et n'est pas destiné à être directement utilisé à partir de votre code.</summary>
+    </member>
+    <member name="T:System.Web.WebPages.Razor.Configuration.HostSection">
+      <summary>Prend en charge le système de configuration pour la section de configuration host.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.Configuration.HostSection.#ctor">
+      <summary>Initialise une nouvelle instance de la classe <see cref="T:System.Web.WebPages.Razor.Configuration.HostSection" />.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.Configuration.HostSection.FactoryType">
+      <summary>Obtient ou définit la fabrique d'hébergement.</summary>
+      <returns>Fabrique d'hébergement.</returns>
+    </member>
+    <member name="F:System.Web.WebPages.Razor.Configuration.HostSection.SectionName">
+      <summary>Représente le nom de la section de configuration de l'environnement d'hôte Razor.</summary>
+    </member>
+    <member name="T:System.Web.WebPages.Razor.Configuration.RazorPagesSection">
+      <summary>Prend en charge le système de configuration pour la section de configuration pages.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.Configuration.RazorPagesSection.#ctor">
+      <summary>Initialise une nouvelle instance de la classe <see cref="T:System.Web.WebPages.Razor.Configuration.RazorPagesSection" />.</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.Configuration.RazorPagesSection.Namespaces">
+      <summary>Obtient ou définit la collection d'espaces de noms à ajouter aux pages Web Pages dans l'application actuelle.</summary>
+      <returns>Collection d'espaces de noms.</returns>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.Configuration.RazorPagesSection.PageBaseType">
+      <summary>Obtient ou définit le nom de la classe de type de base de la page.</summary>
+      <returns>Nom de la classe de type de base de la page.</returns>
+    </member>
+    <member name="F:System.Web.WebPages.Razor.Configuration.RazorPagesSection.SectionName">
+      <summary>Représente le nom de la section de configuration des pages Razor.</summary>
+    </member>
+    <member name="T:System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup">
+      <summary>Prend en charge le système de configuration pour la section de configuration system.web.webPages.razor.</summary>
+    </member>
+    <member name="M:System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup.#ctor">
+      <summary>Initialise une nouvelle instance de la classe <see cref="T:System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup" />.</summary>
+    </member>
+    <member name="F:System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup.GroupName">
+      <summary>Représente le nom de la section de configuration de la section Web de Razor. Contient la chaîne statique en lecture seule « system.web.webPages.razor ».</summary>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup.Host">
+      <summary>Obtient ou définit la valeur host du groupe de section system.web.webPages.razor.</summary>
+      <returns>Valeur host.</returns>
+    </member>
+    <member name="P:System.Web.WebPages.Razor.Configuration.RazorWebSectionGroup.Pages">
+      <summary>Obtient ou définit la valeur de l'élément pages de la section system.web.webPages.razor.</summary>
+      <returns>Valeur d'élément pages.</returns>
+    </member>
+  </members>
+</doc>
