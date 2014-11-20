@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Entity\Competition.cs" />
     <Compile Include="Entity\Group.cs" />
+    <Compile Include="Entity\Team.cs" />
     <Compile Include="Interface\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

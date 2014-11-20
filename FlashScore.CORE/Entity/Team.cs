@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace FlashScore.CORE.Entity
 {
-    public class Group
+    public class Team
     {
         public int Id
         {
@@ -18,6 +19,5 @@ namespace FlashScore.CORE.Entity
             get;
             set;
         }
-        public IList<Team> Teams { get; set; }
     }
 }
