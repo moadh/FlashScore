@@ -24,6 +24,31 @@ namespace FlashScore.DAL
             return Competitions;
         }
 
+        public IQueryable<CORE.Entity.Team> GetTeams()
+        {
+            return Teams;
+        }
+        public IQueryable<CORE.Entity.Round> GetRounds()
+        {
+            return Rounds;
+        }
+        public IQueryable<CORE.Entity.Match> GetMatchs()
+        {
+            return Matchs;
+        }
+
+        public IQueryable<CORE.Entity.MatchEvent> GetMatchEvents()
+        {
+            return MatchEvents;
+        }
+
+
+        public DbSet<MatchEvent> MatchEvents { get; set; }
+
+        public DbSet<Match> Matchs { get; set; }
+
+        public DbSet<Round> Rounds { get; set; }
+        public DbSet<Team> Teams { get; set; }
         public DbSet<Group> Groups { get; set; }
         public DbSet<Competition> Competitions { get; set; }
 

@@ -11,5 +11,9 @@ namespace FlashScore.CORE.Interface
     {
         IQueryable<Group> GetGroups();
         IQueryable<Competition> GetCompetitions();
+        IQueryable<Competition> GetTeams();
+        IQueryable<Competition> GetRounds();
+        IQueryable<Competition> GetMatchs();
+        IQueryable<Competition> GetMatchEvents();
     }
 }
