@@ -29,7 +29,7 @@ namespace FlashScore.CORE.Entity
             get;
             set;
         }
-        public IList<Score> Scores
+        public Score Score
         {
             get;
             set;

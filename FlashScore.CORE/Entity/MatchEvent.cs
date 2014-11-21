@@ -19,7 +19,7 @@ namespace FlashScore.CORE.Entity
             get;
             set;
         }
-        public IList<MatchEventType> MatchEventTypes
+        public MatchEventType MatchEventType
         {
             get;
             set;
