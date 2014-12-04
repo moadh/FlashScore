@@ -6,58 +6,16 @@ using System.Threading.Tasks;
 
 namespace FlashScore.CORE.Entity
 {
-   public class MatchEventType
-    {
-        public int Id
-        {
-            get;
-            set;
-        }
-
-        public int Entry
-        {
-            get;
-            set;
-        }
-        public int Substitution
-        {
-            get;
-            set;
-        }
-        public int YellowCard
-        {
-            get;
-            set;
-        }
-        public int RedCard
-        {
-            get;
-            set;
-        }
-        public int Foul
-        {
-            get;
-            set;
-        }
-        public int FreeKick
-        {
-            get;
-            set;
-        }
-        public int CornerKick
-        {
-            get;
-            set;
-        }
-        public int PenaltyKick
-        {
-            get;
-            set;
-        }
-        public int Goal
-        {
-            get;
-            set;
-        }
+   public enum MatchEventType
+    {        
+       Entry = 1,
+       Substitution = 2,
+       YellowCard = 3,
+       RedCard = 4,
+       Foul = 5,
+       FreeKick = 6,
+       CornerKick = 7,
+       PenaltyKick = 8,
+       Goal = 9
     }
 }

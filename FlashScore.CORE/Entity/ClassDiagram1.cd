@@ -44,13 +44,6 @@
       <Property Name="MatchEventType" />
     </ShowAsAssociation>
   </Class>
-  <Class Name="FlashScore.CORE.Entity.MatchEventType" Collapsed="true">
-    <Position X="10.25" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AQgSAABAAAAAAAAAAAAAAEAAAAEAAAAgAABAAAIAAAA=</HashCode>
-      <FileName>Entity\MatchEventType.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="FlashScore.CORE.Entity.Player" Collapsed="true">
     <Position X="7.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
@@ -85,5 +78,12 @@
       <Property Name="Players" />
     </ShowAsCollectionAssociation>
   </Class>
+  <Enum Name="FlashScore.CORE.Entity.MatchEventType" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgQAABAAAAAAAAAAAAAAEAAAAEAAAAgAABAAAIAAAA=</HashCode>
+      <FileName>Entity\MatchEventType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

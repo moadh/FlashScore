@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FlashScore.CORE.Interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,31 +10,33 @@ namespace FlashScore.API.Controllers
 {
     public class CompetitionController : ApiController
     {
+        IRepository _Repository;
+        ILeague _LeagueService;
+        public CompetitionController()
+        {
+            _Repository = new DAL.Repository();
+            _LeagueService = new CORE.Services.LeagueService(_Repository);
+        }
+
         // GET api/competition
-        public IEnumerable<string> Get()
+        public IHttpActionResult Get()
         {
-            return new string[] { "value1", "value2" };
+            var competitions = _Repository.GetCompetitions().Where((c) => c.Groups.Count == 1).ToList();            
+            return Ok(competitions);
         }
 
-        // GET api/competition/5
-        public string Get(int id)
+        [Route("api/{competition}/{year}/round/{round_number}/matches")]
+        [HttpGet]
+        public IHttpActionResult GetCompetitionMatches(string competition, int year, int round_number) 
         {
-            return "value";
+            return Ok(_LeagueService.GetMatches(competition, year, round_number));
+        }
+        [Route("api/{competition}/{year}/matches")]
+        [HttpGet]
+        public IHttpActionResult GetCompetitionMatches(string competition, int year)
+        {
+            return Ok(_LeagueService.GetMatches(competition, year));
         }
 
-        // POST api/competition
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/competition/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/competition/5
-        public void Delete(int id)
-        {
-        }
     }
 }

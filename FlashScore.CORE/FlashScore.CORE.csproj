@@ -48,8 +48,10 @@
     <Compile Include="Entity\Round.cs" />
     <Compile Include="Entity\Score.cs" />
     <Compile Include="Entity\Team.cs" />
+    <Compile Include="Interface\ILeague.cs" />
     <Compile Include="Interface\IRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\LeagueService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Entity\ClassDiagram1.cd" />

@@ -34,6 +34,9 @@ namespace FlashScore.CORE.Entity
             get;
             set;
         }
+
+ 
+        public Round Round { get; set; }
         public IList<MatchEvent> MatchEvents
         {
             get;

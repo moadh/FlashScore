@@ -7,6 +7,11 @@ namespace FlashScore.CORE.Entity
 {
     public class Competition
     {
+
+        public Competition()
+        {
+            Rounds = new List<Round>();
+        }
         public int Id
         {
             get;
@@ -29,5 +34,7 @@ namespace FlashScore.CORE.Entity
             get;
             set;
         }
+
+        public int Year { get; set; }
     }
 }
